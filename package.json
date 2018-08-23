@@ -1,0 +1,27 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "Algorithms implementations",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandofragoso/js-algorithms.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Fernando Fragoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandofragoso/js-algorithms/issues"
+  },
+  "homepage": "https://github.com/fernandofragoso/js-algorithms#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0"
+  }
+}

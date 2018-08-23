@@ -7,8 +7,4 @@ const reduce = (arr, reducer, init=0) => {
   return reduce(tail, reducer, reducer(init, head));
 }
 
-//tests
-const arr = [2, 4, 6];
-const reducer = (acc, curr) => acc + curr;
-
-console.log(reduce(arr, reducer));
+export default reduce;

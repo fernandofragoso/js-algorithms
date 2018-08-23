@@ -7,7 +7,4 @@ const filter = (arr, func) => {
   return (func(head)) ? [head, ...filter(tail, func)] : [...filter(tail, func)];
 }
 
-//Test
-const arr = [1, 2, 3];
-const func = (x) => (x>1);
-console.log(filter(arr, func));
+export default filter;
